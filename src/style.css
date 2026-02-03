@@ -40,6 +40,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: left center;
 }
 
 .banner::after {
@@ -142,8 +143,8 @@ body {
 .btn-primary,
 .btn-secondary {
   display: inline-block;
-  padding: 14px 32px;
-  font-size: 1rem;
+  padding: 10px 24px;
+  font-size: 0.95rem;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.2s;
@@ -194,7 +195,7 @@ body {
 .tooltip::after {
   content: attr(data-tip);
   position: absolute;
-  bottom: calc(100% + 8px);
+  top: calc(100% + 8px);
   left: 50%;
   transform: translateX(-50%);
   background: #1a1a1a;
@@ -422,18 +423,38 @@ footer {
 }
 
 @media (max-width: 640px) {
-  .banner::after {
-    height: 60px;
+  .banner {
+    aspect-ratio: 1920 / 1000;
   }
 
+  .banner::after {
+    height: 40px;
+  }
+
+  .intro {
+    padding-top: 20px;
+  }
+
+  .intro p {
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
 
   .container {
-    margin-top: -30px;
+    margin-top: -20px;
     padding: 0 16px 40px;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p, li {
+    font-size: 0.9rem;
   }
 
   table {
