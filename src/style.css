@@ -195,9 +195,9 @@ body {
 .tooltip::after {
   content: attr(data-tip);
   position: absolute;
-  top: calc(100% + 8px);
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: calc(100% + 8px);
+  left: 0;
+  transform: none;
   background: #1a1a1a;
   color: #fff;
   padding: 10px 14px;
