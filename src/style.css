@@ -24,6 +24,7 @@ body {
   color: var(--text);
   line-height: 1.7;
   min-height: 100vh;
+  font-size: max(16px, 1.1vw);
 }
 
 .banner {
@@ -112,7 +113,8 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 65vw;
+  min-width: 600px;
   margin: -180px auto 0;
   padding: 0 24px 60px;
   position: relative;
