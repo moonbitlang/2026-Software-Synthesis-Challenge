@@ -145,8 +145,8 @@ body {
 .btn-primary,
 .btn-secondary {
   display: inline-block;
-  padding: 10px 24px;
-  font-size: 0.95rem;
+  padding: 18px 42px;
+  font-size: 1.3rem;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.2s;
@@ -241,27 +241,28 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-weight: 600;
   margin: 20px 0 12px;
   color: #fff;
 }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 1.1em;
   font-weight: 600;
   margin: 16px 0 8px;
   color: var(--text);
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 600;
   margin-bottom: 8px;
   color: var(--primary);
 }
 
 p {
+  font-size: 1em;
   margin-bottom: 12px;
   color: var(--text);
 }
@@ -452,11 +453,11 @@ footer {
   }
 
   h3 {
-    font-size: 1.1rem;
+    font-size: 1.15em;
   }
 
   p, li {
-    font-size: 0.9rem;
+    font-size: 1em;
   }
 
   table {
